@@ -46,3 +46,29 @@ body {
   margin-bottom: 10px;
   border: 1px solid #f5c6cb;
 }
+
+.form form .name-details {
+  display: flex;
+}
+
+form .name-details .field:first-child {
+  margin-right: 10px;
+}
+
+form .name-details .field:last-child {
+  margin-left: 10px;
+}
+
+.form form .field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form form .field label {
+  margin-bottom: 2px;
+}
+
+.form form .field input {
+  outline: none;
+}
