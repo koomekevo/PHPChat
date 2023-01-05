@@ -93,6 +93,7 @@ body {
   color: #ccc;
   top: 70%;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .form .link {
